@@ -1,0 +1,17 @@
+{
+  "name": "score-bot",
+  "version": "1.0.0",
+  "description": "slack-bot that provides nhl scores & standings",
+  "repository": "https://github.com/tim-corley/nhl-slack-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Corley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "slackbots": "^1.2.0"
+  }
+}
