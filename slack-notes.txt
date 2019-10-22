@@ -1,0 +1,60 @@
+https://api.slack.com/docs/message-formatting
+https://api.slack.com/methods/chat.postMessage
+https://api.slack.com/reference/block-kit/blocks
+https://api.slack.com/changelog/2018-12-a-bric-a-brac-of-broadcasts-built-with-blocks
+
+https://api.slack.com/tools/block-kit-builder
+
+[
+	{
+		"type": "divider"
+	},
+	{
+		"type": "section",
+		"fields": [
+			{
+				"type": "mrkdwn",
+				"text": "*TEAM*"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*PTS*"
+			},
+			{
+				"type": "plain_text",
+				"text": "Buffalo Sabres"
+			},
+			{
+				"type": "plain_text",
+				"text": "15"
+			},
+			{
+				"type": "plain_text",
+				"text": "Boston Bruins"
+			},
+			{
+				"type": "plain_text",
+				"text": "12"
+			},
+			{
+				"type": "plain_text",
+				"text": "Buffalo Sabres"
+			},
+			{
+				"type": "plain_text",
+				"text": "15"
+			},
+			{
+				"type": "plain_text",
+				"text": "Boston Bruins"
+			},
+			{
+				"type": "plain_text",
+				"text": "12"
+			}
+		]
+	},
+	{
+		"type": "divider"
+	}
+]
