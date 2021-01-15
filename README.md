@@ -1,14 +1,14 @@
 <!-- PROJECT HEADER -->
 <br />
 <p align="center">
-  <a href="https://espn.com">
+  <a href="https://nhl.com">
     <img src="img/slack-nhl.png" alt="Logo" width="100" height="100">
   </a>
 
   <h2 align="center">NHL Slack Bot</h2>
 
   <p align="center">
-    a slack bot for getting real-time scores & standing for your favorite NHL teams.
+    a Slack Bot for getting real-time scores & standing for your favorite NHL teams.
     <br />
     <br />
     <a href="https://github.com/tim-corley/nhl-slack-bot/issues">Report Bug</a>
@@ -25,7 +25,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -39,13 +39,13 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
         <li>
       <a href="#dev-notes">Dev Notes</a>
       <ul>
-        <li><a href="#sass">Sass</a></li>
-        <li><a href="#responsive-design">Responsive Design</a></li>
+        <li><a href="#api">API</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -106,6 +106,28 @@ Some things you'll need before on your machine in order to get going...
    ``` 
 5. If everything is integrated correctly, you should see **bruins-bot** post a message to the `#general` channel in your workspace. Can also check your console for messages.
 
+### Usage
+
+the bot will respond with data when a message containing one of the following keywords is send in the channel: 
+```
+win
+score
+place
+standings 
+```
+
+**Example**
+```
+tcorley  8:18 AM
+what was the final score of the game last night?
+
+bruins-bot  8:18 AM
+✅ Bruins Won
+Score: 3 - 2
+Against: New Jersey Devils
+Date: 01.15.2021
+Record: 1-0-0 | 2pts
+```
 
 ### Deployment
 
@@ -114,19 +136,18 @@ N/A
 <!-- DEVELPOMENT NOTES -->
 ## Dev Notes
 
-This Slack Bot is using the `https://statsapi.web.nhl.com/api/v1` API to fetch current NHL data. Specifically, it uses the `/teams` & `/standings` endpoints. [API Documentation](https://github.com/dword4/nhlapi)
+### API
 
+This Slack Bot is using the `https://statsapi.web.nhl.com/api/v1` REST API to fetch current NHL data. Specifically, it uses the `/teams` & `/standings` endpoints. [API Documentation](https://github.com/dword4/nhlapi)
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
 <!-- CONTACT -->
 ## Contact
 
 Tim Corley - [@tcor215](https://twitter.com/tcor215) - contact@tim-corley.dev
-
 
 [product-screenshot]: img/screenshot.png
