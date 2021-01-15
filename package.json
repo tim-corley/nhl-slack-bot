@@ -1,7 +1,7 @@
 {
-  "name": "score-bot",
+  "name": "nhl-score-bot",
   "version": "1.0.0",
-  "description": "slack-bot that provides nhl scores & standings",
+  "description": "a slack-bot that provides latest nhl scores & standings",
   "repository": "https://github.com/tim-corley/nhl-slack-bot",
   "main": "index.js",
   "scripts": {
